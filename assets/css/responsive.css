@@ -1,0 +1,822 @@
+@media screen and (min-width: 1800px) {
+    .container {
+        max-width: unset;
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: unset;
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: unset;
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: unset;
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: unset;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* Footer start*/
+    .list-contact {
+        margin-top: 10px;
+    }
+
+    .list-contact li {
+        margin-bottom: 15px !important;
+    }
+
+    .list-contact li a {
+        font-size: 14px !important;
+        gap: 12px !important;
+        align-items: flex-start !important;
+    }
+
+    .list-contact li a i {
+        width: 18px !important;
+        height: 18px !important;
+        font-size: 14px !important;
+        margin-top: 2px !important;
+    }
+
+
+    /* Footer adjustments */
+    .top-footer .row>[class*="col-"] {
+        margin-bottom: 30px;
+    }
+
+    .logo-ft {
+        margin-bottom: 25px !important;
+    }
+
+    .logo-ft img {
+        width: 160px !important;
+    }
+
+    .social-media {
+        justify-content: flex-start;
+        gap: 8px !important;
+    }
+
+    .social-media li a {
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 18px !important;
+    }
+
+    /* تحسين أيقونات التواصل */
+    .list-contact {
+        padding: 0 !important;
+    }
+
+    .list-contact li {
+        margin-bottom: 18px !important;
+    }
+
+    .list-contact li:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    /* Footer style End */
+    .main_menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .is-closed {
+        display: block;
+    }
+
+    .logo-site img {
+        max-width: 130px;
+    }
+
+    .mmenu .main_menu {
+        display: block;
+    }
+
+    .main_menu>li {
+        margin-bottom: 20px;
+    }
+
+    .main_menu>li>a {
+        display: inline-block;
+    }
+
+    .section_home {
+        min-height: 750px;
+    }
+
+    .home_txt p {
+        line-height: 1.9;
+        font-size: 3.3vw;
+        width: 100%;
+    }
+
+    .home_txt>span {
+        font-size: 4vw;
+    }
+
+    /* ===== إحصائيات التابلت ===== */
+    .section_statistics {
+        padding: 50px 0 40px !important;
+    }
+
+    .row-statistics {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 40px 30px !important;
+        justify-items: center !important;
+        align-items: start !important;
+    }
+
+    .item-statistic {
+        width: 100% !important;
+        position: relative !important;
+        text-align: center !important;
+    }
+
+    /* إخفاء الخطوط القديمة */
+    .item-statistic:before {
+        display: none !important;
+    }
+
+    .item-statistic:after {
+        display: none !important;
+    }
+
+    /* إضافة خط عمودي بين الأعمدة */
+    .item-statistic:nth-child(odd)::after {
+        content: "" !important;
+        background: #dadada !important;
+        width: 1px !important;
+        height: 40px !important;
+        position: absolute !important;
+        top: 50% !important;
+        right: -15px !important;
+        transform: translateY(-50%) !important;
+        display: block !important;
+    }
+
+    /* RTL */
+    .rtl-style .item-statistic:nth-child(odd)::after {
+        right: auto !important;
+        left: -15px !important;
+    }
+
+    /* إخفاء الخط من آخر عنصرين إذا كان العدد فردي */
+    .item-statistic:last-child:nth-child(odd)::after {
+        display: none !important;
+    }
+
+    /* العنصر الأخير الفردي يأخذ عرض العمودين */
+    .item-statistic:last-child:nth-child(odd) {
+        grid-column: 1 / -1 !important;
+    }
+
+    .item-statistic h2 span {
+        font-size: 50px !important;
+    }
+
+    .item-statistic h2 small {
+        font-size: 28px !important;
+    }
+
+    .item-statistic p {
+        font-size: 15px !important;
+    }
+
+    /* ===== نهاية إحصائيات التابلت ===== */
+
+    .item-feat {
+        margin-bottom: 25px;
+    }
+
+    .section-areas {
+        align-items: end;
+    }
+
+    .item-area {
+        width: 100%;
+        margin: 0 0 100px 0;
+        padding: 30px 12px;
+    }
+
+    .sidebar {
+        display: none !important;
+        top: 30px !important;
+        height: auto;
+        gap: 10px;
+    }
+
+    .nav-label {
+        width: 260px;
+        font-size: 15px;
+    }
+
+    .section_presence .sec_head {
+        top: 20px;
+        width: 100%;
+    }
+
+    .dot-grid {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px 0 0;
+    }
+
+    .menu-ft,
+    .cont-ft {
+        margin-bottom: 25px;
+    }
+
+    .section_about_hero {
+        height: 50vh;
+        background-position: -220px -231px !important;
+    }
+
+    .home_txt h1 {
+        max-width: unset;
+    }
+
+    .section-parallax {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .thumb-choose {
+        width: 100%;
+    }
+
+    .thumb-choose-big img {
+        max-width: 100%;
+    }
+
+    .thumb-choose-sm img {
+        max-width: 180px;
+    }
+
+    .txt-choose,
+    .txt-ceo {
+        width: 100%;
+    }
+
+    .thumb-ceo {
+        width: 100%;
+    }
+
+    .section-header {
+        top: 0;
+    }
+
+    .text-item {
+        width: 100%;
+    }
+
+    .department {
+        width: 100%;
+    }
+
+    .departments::before {
+        display: none;
+    }
+
+    .ceo-box {
+        margin-bottom: 40px;
+    }
+
+    .departments {
+        gap: 30px;
+    }
+
+    .department::before {
+        display: none;
+    }
+
+    .hed-area {
+        width: 100%;
+    }
+
+    .lst-areas {
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .thumb-partner {
+        width: 100%;
+    }
+
+    .thumb-partner figure {
+        width: 100%;
+    }
+
+    .detail-header-text {
+        width: 100%;
+    }
+
+    .detail-header-text {
+        padding: 20px 10px;
+        border: 0;
+    }
+
+    .contact-wrapper {
+        width: 100%;
+    }
+
+    .lst-branches {
+        flex-wrap: wrap;
+    }
+
+    .item-branch {
+        width: 100%;
+    }
+
+    .cont-msg {
+        padding: 30px;
+    }
+
+    .head-msg h4 {
+        font-size: 4.25vw;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+    .form-msg .d-flex {
+        column-gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .form-msg .d-flex {
+        margin-bottom: 10px;
+    }
+
+    .form-msg .d-flex .form-group {
+        flex: auto;
+        width: 100%;
+    }
+
+    .contact-item {
+        display: flex;
+        justify-content: space-between !important;
+        padding: unset !important;
+        margin: 10px 0;
+    }
+
+    .icon-circle {
+        left: unset !important;
+        right: -36px !important;
+    }
+
+    .info-card {
+        text-align: start !important;
+        margin: 0 !important;
+        margin-right: 86px !important;
+        padding: 20px 15px !important;
+    }
+
+    .info-card p {
+        color: #fff;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .timeline::before {
+        left: 30px;
+    }
+
+    .rtl-style .icon-circle,
+    .rtl-style .timeline::before {
+        left: auto;
+        right: 30px;
+    }
+
+    .txt-head-proj h2 {
+        font-size: 20px;
+    }
+
+    .section_projects_dtl_hero {
+        min-height: 55vh;
+    }
+
+    .item-dta-proj {
+        margin-bottom: 30px;
+    }
+
+    .item-step {
+        padding: 28px 10px;
+        margin-bottom: 24px;
+    }
+
+    .item-stat {
+        margin-bottom: 30px;
+        text-align: start;
+    }
+
+    .item-lang-covered {
+        width: 48%;
+    }
+
+    .block-product-slide {
+        padding-bottom: 200px;
+    }
+
+    .pro--Thumb {
+        height: 430px;
+    }
+
+    .block-product-slide .slick-slide img {
+        height: 100%;
+    }
+
+    .quote-text {
+        padding: 20px 0 9px 0;
+        margin: 10px 0 60px 0;
+    }
+}
+
+/* معرض مشاريع Elementor: نفس تجربة الموبايل حتى أقصى عرض لوحي (لتفادي كسر الشكل بين 600–1024px) */
+@media screen and (max-width: 1024px) {
+    .section_gallery_project .slider-nav .sp-nav img {
+        height: 150px !important;
+        width: auto;
+        max-width: 100%;
+        object-fit: cover !important;
+    }
+
+    .section_gallery_project .slider-nav .slick-slide {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .section_gallery_project .block-product-slide {
+        padding-bottom: 200px;
+    }
+
+    .section_gallery_project .pro--Thumb {
+        height: 430px;
+    }
+
+    .section_gallery_project .block-product-slide .slick-slide img {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home_txt h1 {
+        font-size: 6vw;
+        line-height: 13vw;
+        max-width: unset;
+    }
+
+    .home_txt>span {
+        font-size: 4vw;
+    }
+    .logo-ft img {
+        width: 140px !important;
+    }
+
+    .social-media li a {
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 16px !important;
+    }
+
+    .menu-ft {
+        margin-bottom: 30px !important;
+    }
+
+    .bottom-ft {
+        padding: 20px 0 !important;
+    }
+
+    .cont-bt p {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+
+    /* Footer Start  */
+    .list-contact li a {
+        font-size: 13px !important;
+        gap: 10px !important;
+    }
+
+    .list-contact li a i {
+        width: 16px !important;
+        height: 16px !important;
+        font-size: 12px !important;
+    }
+
+    .menu-ft h5 {
+        font-size: 16px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .menu-ft ul li a {
+        font-size: 13px !important;
+    }
+
+    /* Footer end  */
+    .section_statistics {
+        padding: 40px 0 !important;
+    }
+
+    .row-statistics {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 40px 20px !important;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+
+    .item-statistic {
+        width: 100% !important;
+        padding: 0 10px !important;
+        text-align: center !important;
+        position: relative !important;
+    }
+
+    /* إخفاء الخطوط القديمة */
+    .item-statistic:before,
+    .item-statistic:after {
+        display: none !important;
+    }
+
+    /* خط عمودي بين الأعمدة */
+    .item-statistic:nth-child(odd)::after {
+        content: "" !important;
+        background: #dadada !important;
+        width: 1px !important;
+        height: 50px !important;
+        position: absolute !important;
+        top: 50% !important;
+        right: -10px !important;
+        transform: translateY(-50%) !important;
+        display: block !important;
+    }
+
+    /* RTL للغة العربية */
+    .rtl-style .item-statistic:nth-child(odd)::after {
+        right: auto !important;
+        left: -10px !important;
+    }
+
+    /* إخفاء الخط من آخر عنصر في حالة العدد الفردي */
+    .item-statistic:last-child:nth-child(odd)::after {
+        display: none !important;
+    }
+
+    /* العنصر الأخير الفردي يأخذ عرض العمودين */
+    .item-statistic:last-child:nth-child(odd) {
+        grid-column: 1 / -1 !important;
+    }
+
+    .item-statistic h2 span {
+        font-size: 40px !important;
+    }
+
+    .item-statistic h2 small {
+        font-size: 24px !important;
+    }
+
+    .item-statistic p {
+        font-size: 14px !important;
+        margin-top: 8px !important;
+    }
+
+    .sec_head h2,
+    .service-title,
+    .section-parallax .txt-choose h3,
+    .vision-section .vision-item h3,
+    .sp-cards-grid .sp-card-face-front,
+    .detail-header-text h3,
+    .section_steps .section-title h2,
+    .section_statistics_project .title h2 {
+        font-size: 20px !important;
+    }
+
+    .vision-item:hover {
+        height: 100% !important;
+    }
+
+    .item-dta-proj {
+        align-items: start !important;
+    }
+
+    .txt-head-proj {
+        width: 100% !important;
+    }
+
+    .item-dta-proj figure {
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        transform: translateY(35px);
+        text-align: center;
+    }
+
+    .section_statistics_project .title::before {
+        inset-inline-start: 20px;
+    }
+
+    body.single-post.rtl .single-post h1 {
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    body.single-post .single-post p {
+        font-size: 17px;
+    }
+
+    .section_projects_page .category-filters {
+        justify-content: flex-start !important;
+        flex-direction: column !important;
+    }
+
+    .section_projects_page .category-filters .filter-btn {
+        width: fit-content !important;
+    }
+
+    .section_features .txt-feat h4 {
+        font-size: 18px !important;
+    }
+
+    .service-cards-section .service-cards .service-card-content {
+        align-items: center !important;
+    }
+
+    .service-cards-section .service-cards .service-card-content h2 {
+        width: 75% !important;
+    }
+
+    .section_head_hero .txt-head h2 {
+        font-size: 20px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .section_head_hero .breadcrumb-bar .breadcrumb li {
+        font-size: 16px !important;
+    }
+
+    .section_head_hero .breadcrumb-bar .breadcrumb li .breadcrumb>li:not(:last-child):before {
+        font-size: 16px !important;
+    }
+
+    body.rtl .section_partners_page .detail-header-text p {
+        font-size: 16px !important;
+        text-align: justify !important;
+    }
+
+    .section_statistics_project .item-stat h2 span {
+        font-size: 24px !important;
+    }
+
+    .section_statistics_project .item-stat p {
+        margin-bottom: 1rem !important;
+    }
+
+    .archive .site-content-inner .title a {
+        font-size: 18px !important;
+    }
+
+    body.ltr-style .archive .site-content-inner .excerpt {
+        font-size: 14px !important;
+        text-align: justify !important;
+    }
+
+    body.ltr-style .section_areas_excellence .item-stats span {
+        font-size: 12px !important;
+        padding: 6px 10px !important;
+    }
+
+    body.ltr-style .section_areas_excellence .item-stats span.number {
+        padding: 12px 6px !important;
+    }
+
+    .section_projects_page .project-card .txt-proj p {
+        margin-top: 20px !important;
+    }
+
+    body.rtl .section_steps .item-step p {
+        text-align: justify !important;
+    }
+
+    body.ltr-style .section_projects_page .filter-btn {
+        font-size: 12px !important;
+    }
+
+    body.ltr-style .single-post h1 {
+        font-size: 18px !important;
+        line-height: 1.6 !important;
+    }
+
+}
+
+/* ===== شاشات صغيرة جداً ===== */
+@media screen and (max-width: 480px) {
+    .list-contact li a {
+        font-size: 12px !important;
+    }
+
+    .list-contact li a i {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .section_statistics {
+        padding: 35px 0 !important;
+    }
+
+    .row-statistics {
+        gap: 35px 15px !important;
+    }
+
+    .item-statistic h2 span {
+        font-size: 36px !important;
+    }
+
+    .item-statistic h2 small {
+        font-size: 22px !important;
+    }
+
+    .item-statistic p {
+        font-size: 13px !important;
+    }
+
+    /* ===== نهاية إحصائيات الموبايل ===== */
+}
+
+@media screen and (max-width: 480px) {
+    .section_statistics {
+        padding: 25px 0 35px !important;
+    }
+
+    .row-statistics {
+        gap: 30px 0 !important;
+    }
+
+    .item-statistic h2 span {
+        font-size: 40px !important;
+    }
+
+    .item-statistic h2 small {
+        font-size: 22px !important;
+    }
+
+    .item-statistic p {
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 1800px) {
+
+    .e-con.e-flex>.e-con-inner {
+        max-width: 1500px !important;
+    }
+
+    .item-area p {
+        font-size: 1.1rem;
+    }
+
+    .item-stats span {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+
+
+    .txt-choose p,
+    .txt-ceo p {
+        font-size: 1.3rem;
+    }
+
+    .txt-choose h3,
+    .txt-ceo h3 {
+        font-size: 2.5rem;
+    }
+}
