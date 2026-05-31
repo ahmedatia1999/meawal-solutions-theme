@@ -21,8 +21,7 @@
 
 **[معول](https://www.meawal.com)** — تصميم وتطوير مواقع الشركات في الرياض.
 
-| الموقع | [www.meawal.com](https://www.meawal.com) |
-| البريد | hello@meawal.com |
+- الموقع: [www.meawal.com](https://www.meawal.com)
 
 ---
 
